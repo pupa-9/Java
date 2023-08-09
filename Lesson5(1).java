@@ -16,8 +16,6 @@ public class WordCount {
                 wordCount.put(word, count + 1);
             }
         }
-
-        // выводим результаты
         for (Map.Entry<String, Integer> entry : wordCount.entrySet()) {
             System.out.println(entry.getKey() + ": " + entry.getValue());
         }
